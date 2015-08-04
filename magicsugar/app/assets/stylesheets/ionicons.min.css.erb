@@ -8,10 +8,11 @@
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
   Modified icons to fit ionicon’s grid from original.
-*/@font-face {
+*/@font-face {          
+<%= asset_path '' %>
 font-family: "Ionicons";
 src: url(<%= asset_path 'ionicons.eot?v=2.0.0' %>);
-src: url("/assets/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"),url("/assets/ionicons.ttf?v=2.0.0") format("truetype"),url("/assets/ionicons.woff?v=2.0.0") format("woff"),url("/assets/ionicons.svg?v=2.0.0#Ionicons") format("svg");
+src: url(<%= asset_path '/assets/ionicons.eot?v=2.0.0#iefix' %>) format("embedded-opentype"),url(<%= asset_path 'ionicons.ttf?v=2.0.0' %>) format("truetype"),url(<%= asset_path 'ionicons.woff?v=2.0.0' %>) format("woff"),url(<%= asset_path 'ionicons.svg?v=2.0.0#Ionicons' %>) format("svg");
 font-weight: normal;
 font-style: normal
 }
