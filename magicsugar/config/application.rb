@@ -24,7 +24,7 @@ module Magicsugar
     config.active_record.raise_in_transactional_callbacks = true
     config.assets.paths << "#{Rails}/vendor/assets/fonts"
     config.assets.paths << "#{Rails}/vendor/assets/img" 
-    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif *.eot *.svg *.ttf *.woff)
     config.serve_static_assets = true
   end
 end
