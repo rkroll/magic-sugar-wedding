@@ -25,5 +25,6 @@ module Magicsugar
     config.assets.paths << "#{Rails}/vendor/assets/fonts"
     config.assets.paths << "#{Rails}/vendor/assets/img" 
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.serve_static_assets = true
   end
 end
