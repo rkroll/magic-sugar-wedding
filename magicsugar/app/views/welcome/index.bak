@@ -233,69 +233,12 @@
 		</div><!--/row -->
 
 		<div class="row">
-		<form class="form-horizontal">
-<fieldset>
-
-<legend>RSVP</legend>
-
-<div class="control-group">
-  <label class="control-label" for="Exclamation"></label>
-  <div class="controls">
-    <input id="Exclamation" name="Exclamation" type="text" placeholder="Exclamation" class="input-small">!
-    <p class="help-block">Wow/Crikey/Donkeys</p>
-  </div>
-</div>
-
-<div class="control-group">
-  <label class="control-label" for="adjective01">We are</label>
-  <div class="controls">
-    <input id="adjective01" name="adjective01" type="text" placeholder="Adjective" class="input-small">
-    <p class="help-block">Confused/Enthusiastic/Bewildered</p>
-  </div>
-</div>
-
-<div class="control-group">
-  <label class="control-label" for="names01">to hear about your upcoming nuptials!</label>
-  <div class="controls">
-    <input id="names01" name="names01" type="text" placeholder="Your name(s)" class="input-small">
-    <p class="help-block">Billy Bob Thorton and sons</p>
-  </div>
-</div>
-
-<div class="control-group">
-  <label class="control-label" for="adjective02">will be</label>
-  <div class="controls">
-    <input id="adjective02" name="adjective02" type="text" placeholder="Adjective" class="input-small">
-    <p class="help-block">Mysterious/Exuberant/Crabby</p>
-  </div>
-</div>
-
-<div class="control-group">
-  <label class="control-label" for="rsvp01">to be</label>
-  <div class="controls">
-    <input id="rsvp01" name="rsvp01" type="text" placeholder="Attending/Missing" class="input-medium">
-    <p class="help-block">Put your RSVP here!</p>
-  </div>
-</div>
-
-<div class="control-group">
-  <label class="control-label" for="number01">the sail-abration!  There are</label>
-  <div class="controls">
-    <input id="number01" name="number01" type="text" placeholder="537,219" class="input-small"><p> people in our crew.*</p>
-    <p class="help-block">Number of people attending</p>
-  </div>
-</div>
-
-<div class="control-group">
-  <label class="control-label" for="songs01">What song would get your booty on the dance floor?</label>
-  <div class="controls">                     
-    <textarea id="songs01" name="songs01">The Macarena</textarea>
-	<p> *If you don't RSVP, make sure to bring a chair and a sandwich!</p>
-  </div>
-</div>
-
-</fieldset>
-</form>
+			<div class="col-md-6 col-md-offset-3 mt centered">
+				<form role="form" action="register.php" method="post" enctype="plain"> 
+    				<input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
+					<button class='btn btn-lg btn-green subscribe-submit' type="submit">Subscribe</button>
+				</form>
+			</div>
 		</div><!--/row -->
 	</div><!--/container -->
 </div><!--/g -->
